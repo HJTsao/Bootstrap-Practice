@@ -1,0 +1,185 @@
+#escapeMenuArea{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+
+#nav {
+	position: fixed;
+	top:10px;
+	width: 100%;
+	text-align: center;
+	font-family: "Ubuntu";
+	color:white;
+	background-color: transparent;
+	border:none;
+	z-index: 2;
+}
+
+#nav .container{
+	border-radius: 15%;
+}
+
+#nav span {
+	top:3px;
+}
+
+#nav h3{
+	cursor:pointer;
+}
+
+#menu {
+	position: fixed;
+	left:-200px;
+	font-family: "Ubuntu";
+	color:white;
+	background-color: rgba(0,0,0,0.8);
+	height: 100%;
+	width: 200px;
+	z-index: 2;
+}
+
+#menuPanel {
+	background-color: transparent;
+	color:white;
+	border:none;
+	font-size:20px;
+	padding-top: 5vh;
+}
+
+#menuPanel .panel-body{
+	border-bottom: 1px solid grey;
+	border-radius: 15%;
+	cursor:pointer;
+}
+
+
+
+#section-header {
+	width: 100%;
+	height: 100vh;
+}
+
+#bg {
+	width: 100%;
+	height: 100%;
+	background: url("photos/bg.jpg") center center;
+	background-size: cover;
+
+}
+
+#bg img{
+	width:100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+#Title {
+	width:100%;
+	height:100%;
+}
+
+#divider {
+	width: 35%;
+	opacity: 0.5;
+}
+
+#titleWord {
+	position: absolute;
+	top:40%;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Montserrat";
+	font-size:2rem;
+	color: #FFD306;
+	line-height: 100%;
+}
+
+#topic{
+	font-size:7rem;
+	/*text-decoration: underline;*/
+	color:white;
+}
+
+#section-col {
+	
+	width:100%;
+	height:100vh;
+	font-family: "Montserrat";
+	font-size:2rem;
+	text-align: center;
+	background: url("photos/bg3.jpg") center center;
+	background-size: cover;
+}
+
+.example {
+	line-height: 80px;
+	color:white;
+	padding:5px;
+}
+
+.content {
+	position: relative;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#col-img-example {
+	width: 100%;
+	height:40vh;
+	overflow: hidden;
+	background: url("photos/col-example.png") bottom left;
+	background-size: cover;
+}
+
+#section-ui {
+	
+	width: 100%;
+	height: 100vh;
+	font-family: "Montserrat";
+	font-size:2rem;
+	text-align: center;
+	background: url("photos/bg3.jpg") center center;
+	background-size: cover;
+}
+
+#section-carousel {
+	width: 100%;
+	height: 100vh;
+	font-family: "Montserrat";
+	font-size:2rem;
+	text-align: center;
+	background: url("photos/bg3.jpg") center center;
+	background-size: cover;
+}
+
+#section-bottom{
+	
+	width: 100%;
+	height: 100vh;
+	font-family: "Montserrat";
+	font-size:2rem;
+	text-align: center;
+	color: #cdbfe3;
+}
+
+#markB {
+	display: block;
+	margin: auto;
+	height: 144px;
+	width: 144px;
+	font-size:120px;
+	line-height: 144px;
+	box-sizing: border-box;
+	border: 1px solid #cdbfe3;
+	border-radius: 15%;
+}
+
+.nextSection {
+	cursor: pointer;
+}
